@@ -1,0 +1,32 @@
+h1 {
+    color: #948787;
+    text-align:center;
+    letter-spacing: 1.5px;
+    font-family: 'Rufina', serif;
+    font-size: 92px;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.main_content {
+    background-color: black;
+    // height: 100vh;
+    // width: 100vw;
+}
+
+.home_image {
+    margin: 80px;
+}
+
+.home_header_image {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
