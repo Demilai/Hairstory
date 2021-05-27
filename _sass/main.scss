@@ -38,7 +38,13 @@ body {
 }
 
 nav {
+    font-family: 'Roboto', 'serif';
+    color: #948787;
+    text-decoration: none;
+    font-weight: 400;
     position: absolute;
     top: 10px;
-    right: 80px
+    right: 80px;
+    word-spacing: 20px;
+    text-align: center;
 }
