@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     color: #948787;
     text-align:center;
@@ -22,6 +26,9 @@ header {
 .main_content {
 }
 
+.arrow {
+    position: absolute; bottom: -5.5vh; left: 150vh;
+}
 
 .home_image {
     margin: 80px;
@@ -65,6 +72,7 @@ body {
 .containers {
     display: flex;
     justify-content: space-around;
+    position: relative; top: 10vh; right: 7vh;
 }
 
 .container {
@@ -76,7 +84,8 @@ body {
 .container_2 {
     width: 385px;
     height: 270px;
-    background-color: #C4C4C4;    
+    background-color: #C4C4C4;  
+    position: relative; right: 15px;  
 }
 
 h2 {
@@ -93,7 +102,19 @@ p {
 }
 
 .content {
-    display: flex;
-    align-content: space-around;
-    flex-direction: column;
+    // display: flex;
+    // align-content: space-around;
+    // flex-direction: column;
+    position: relative; top: 200px;
+}
+
+.anchor {
+    color: red;
+    img { 
+        background-image: url("/assets/images/Arrow.svg");
+        width: 50px;
+    }
+    img:hover { 
+        background-image: url("/assets/images/Arrow_Rollover.svg");
+    }
 }
