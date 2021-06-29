@@ -39,10 +39,22 @@ header {
 
 .arrow {
     position: relative; bottom: 8vh; left: 1109px;
+    
+    .a {
+        stroke:#948787;
+    }
+}
+.arrow:hover {
 
-        .circle:hover {
-            fill: #948787;
-        }
+    .circle {
+        fill: #948787;
+        transition: all 1s;
+    }
+
+    .a {
+        stroke: #131313;
+    }
+
 }
 
 .home_image {
