@@ -14,6 +14,15 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0;
+    position: relative;
+}
+
+.opacity {
+    position: absolute;
+}
+
+.colour {
+    color: black;
 }
 
 header {
@@ -21,13 +30,19 @@ header {
     width: 100%;
     background-image: url("/assets/images/home-header-image.jpg");
     background-position: bottom;
+    background-position-y: -220px;
+    background-position-x: 1px;
 }
 
 .main_content {
 }
 
 .arrow {
-    position: absolute; bottom: -5.5vh; left: 150vh;
+    position: relative; bottom: 8vh; left: 1109px;
+
+        .circle:hover {
+            fill: #948787;
+        }
 }
 
 .home_image {
@@ -64,15 +79,11 @@ body {
     }
 }
 
-.arrow {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .containers {
     display: flex;
     justify-content: space-around;
-    position: relative; top: 10vh; right: 7vh;
+    position: relative; top: -5vh; right: 7vh;
+    padding: 0vh 0vh 15vh 0vh;
 }
 
 .container {
@@ -106,15 +117,4 @@ p {
     // align-content: space-around;
     // flex-direction: column;
     position: relative; top: 200px;
-}
-
-.anchor {
-    color: red;
-    img { 
-        background-image: url("/assets/images/Arrow.svg");
-        width: 50px;
-    }
-    img:hover { 
-        background-image: url("/assets/images/Arrow_Rollover.svg");
-    }
 }
