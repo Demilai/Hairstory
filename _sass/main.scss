@@ -1,3 +1,5 @@
+$fa-font-path: "./webfonts";
+
 html {
     scroll-behavior: smooth;
 }
@@ -130,6 +132,17 @@ h2 {
 p {
     font-family: 'Roboto', 'serif';
     color: #948787;
+}
+
+.slideImage1 {
+    width: 275px;
+    height: 355px;
+    background-color: #C4C4C4;
+}
+.slideImage2 {
+    width: 545px;
+    height: 345px;
+    background-color: #C4C4C4;
 }
 
 .content {
