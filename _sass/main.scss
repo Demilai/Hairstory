@@ -40,6 +40,11 @@ header {
     background-position-x: 1px;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .main_content {
 }
 
@@ -86,6 +91,8 @@ body {
     word-spacing: 20px;
     justify-content: flex-end;
     align-items: center;
+    -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
 
     a {
         color: #948787;
@@ -99,7 +106,7 @@ body {
     a:hover {
         color: #877A7A;
     }
-}
+} 
 
 .containers {
     display: flex;
@@ -152,7 +159,29 @@ p {
     position: relative; top: 200px;
 }
 
-.footerText {
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerTitle {
     font-family: 'Roboto', 'serif';
     text-transform: uppercase;
+}
+
+.footerTextRight {
+    font-family: 'Roboto';
+    display: flex; 
+    color: #948787;
+}
+
+.linksContainer {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 25px;
+
+    a {
+        margin: 0px 0px 0px 10px;
+    }
 }
