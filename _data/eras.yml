@@ -1,20 +1,55 @@
-- mainImage: 'assets/images/Portrait of two unidentified women from Zanzibar. Photographed in 1900.jpg'
+- mainImage: open ('img/assets/images/Portrait of Malissa Hardin Photographed in 1910.jpg')
   miniImage:
-  title: 1900 - 1910
+  title: 1900 - 1920
   body: "During the early 1900s to 1910s, hair salons and products were virtually non-existent in the black community. Annie Turnbo Malone debuted her Wonderful Hair Grower products in 1902 and eventually one of her sales girls, Madame C.J. Walker, started her own iconic haircare brand in 1905. In 1909, Garrett Morgan accidentally developed the first chemical relaxer. The female version of the relaxer soon follows, and sales skyrocket with the promise of straighter, more Caucasian-like hair texture. 
 Popular hairstyles for the time were The Gibson Girl, the pompadour and Marcel waves."
 
 - mainImage:
   miniImage:
-  title: 1910 - 1920
-  body: Ermmmm
-
-- mainImage:
-  miniImage:
   title: 1920 - 1930
-  body: flappers
+  body: "During the infamous Roaring Twenties, Black women had very few trendy styles. In the 1920s, there was a cultural rebellion, where many women found themselves going against societal norms, which included completely changing the way they wore their hair. The hairstyles that were worn in the 1920s were short Flapper-esque haircuts. Flapper hairstyles were short, ear- or jaw-length bobs that hugged close to the head, sometimes styled with waves or pin curls. Other notable styles during this time included finger waves and short bob cuts with bangs."
 
 - mainImage:
   miniImage:
   title: 1930 - 1940
-  body: cherry pie
+  body: "In the 1930s, women started wearing more traditionally feminine looks. During this era, deep waves with fashionable hats were a big trend. Well-known hairstyles in this era included water waves, finger waves and windblown hair."
+
+- mainImage:
+  miniImage:
+  title: 1940 - 1950
+  body: "In the 1940s, Black hairstyles took a more elegant spin. During this era, people were becoming more interested in style and aesthetics as they were depicted on the silver screen, giving rise to Hollywood-inspired glamour and screen siren beauty. Soft curly hairstyles and updos were becoming more highly requested during this time. Rollers became very popular, perhaps due to the rise in recognition of pin-up fashion during World War II. Hairstyles prevalent during this time included curls, rolls, scarves, snoods and sleek buns."
+
+- mainImage:
+  miniImage:
+  title: 1950 - 1960
+  body: "Many styles of the 1940s were still huge in the 1950s. During this era, wigs and super-volumized looks started to come onto the scene and became fashionable among women. Stylish hairstyles during this era included the pompadour and the beehive."
+
+- mainImage:
+  miniImage:
+  title: 1960 - 1970
+  body: "Natural hair became a movement during the 1960s: This was the time of the Civil Rights Movement and Black Power. Many women started wearing their hair natural during this time. Afros were very popular. During this era, afros started to become more and more of a fashion statement."
+
+- mainImage:
+  miniImage:
+  title: 1970 - 1980
+  body: "Celebrities rocked big afros and made them very popular during this disco-laden time. Other trendy hairstyles of this decade included cornrows, braids and afro puffs. The disco era saw lots more Afros and big statement ‘dos."
+
+- mainImage:
+  miniImage:
+  title: 1980 - 1990
+  body: "In the 1980s, Afros were not as widespread, but new hairstyles like Jheri curls and asymmetric bobs, as well as fades, started to come into the fore. Asymmetrical cuts, like a mullet-inspired natural bob, were big in the 1980s."
+
+- mainImage:
+  miniImage:
+  title: 1990 - 2000
+  body: "Many of the hairstyles that were big in the 1990s are still well-loved today. Popular hairstyles of the ’90s included box braids, micro braids, relaxed strands and baby hair."
+
+- mainImage:
+  miniImage:
+  title: 2000 - 2010
+  body: "Relaxed, layered hair with side-swept bangs inspired many looks during the 2000s. Many women wanted to rock these side-lying bangs. Other popular hairstyles during the 2000s included short spiky hair/pixie cuts, cornrows with patterns and short bobs with flipped ends." 
+
+- mainImage:
+  miniImage:
+  title: 2010 - 2020
+  body: "Black women tried many hairstyles during this era. Some of the most popular hairstyles from this most recent decade include crochet braids, weaves, natural hairstyles and faux locs. Creative crochet locs and weaves characterize the latter part of the 2010. Another style that grew in popularity was Bantu knots, a traditional African style that demands attention with its beautiful twisted and spiraled knots.Bantu knots increased in popularity in the 2010s, and it’s easy to see why!" 
