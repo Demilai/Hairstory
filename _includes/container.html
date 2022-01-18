@@ -1,12 +1,25 @@
 {% for era in site.data.eras %}
-<div id="era-{{forloop.index}}" class="containers">
-    <div class="container">
-    </div>
-    <div class="container_2">
-      <div class="content">
-        <h2>{{era.title}}</h2>
-      <p class="info">{{era.body}}</p>
-    </div>
-    </div>
+<div id="era-{{forloop.index}}" class="container">
+  <div class="mainImage">
+    <img src="{{era.mainImage}}" />
   </div>
-  {%endfor%}
+  <div class="eraSubContent">
+    <div class="miniImage">
+      <img src="{{era.miniImage}}" />
+    </div>
+    <div class="eraContent">
+      <h2>{{era.title}}</h2>
+      <p class="info">{{era.body}}</p> 
+    </div>
+    <svg class="arrow" width="135" height="135" viewBox="0 0 135 135" xmlns="http://www.w3.org/2000/svg" fill="none">
+      <a href="#era-1">
+      <circle class="circle" cx="67.5" cy="67.5" r="66.5" style="stroke-width:2;stroke:#948787"/>
+      <line x1="67.5" y1="32" x2="67.5" y2="93" class="a"/>
+      <path d="M48.5 69.8L53.4 72.9C58.9 76.4 63.1 81.5 65.4 87.6L67.5 93" class="a"/>
+      <path d="M86.9 69.8L82 72.9C76.5 76.4 72.3 81.5 69.9 87.6L67.9 93" class="a"/>
+    </a>
+    </svg>
+  </div>
+</div>
+<div>{%include slide.html %}</div>
+{%endfor%}
